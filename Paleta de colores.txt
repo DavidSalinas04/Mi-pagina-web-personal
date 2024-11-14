@@ -1,0 +1,9 @@
+Fondo Principal	#f4f4f9
+Texto Principal	#333333
+Títulos (Principal)	#0056b3
+Subtítulos	#007bff
+Texto Secundario	#555555
+Enlaces (Normal)	#0056b3
+Enlaces (Hover)	#003366
+Fondo del Contenedor	#ffffff
+Sombra del Contenedor	rgba(0, 0, 0, 0.2)

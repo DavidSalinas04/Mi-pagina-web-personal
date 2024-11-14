@@ -1,0 +1,62 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del título principal */
+#Portafolio {
+    text-align: center;
+    font-size: 2.5em;
+    color: #0056b3;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* Estilo de enlaces dentro del portafolio */
+#Portafolio a {
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#Portafolio a:hover {
+    color: #003366;
+}
+
+/* Estilo del encabezado principal */
+#Proyecto {
+    font-size: 2em;
+    color: #007bff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Estilo de los subtítulos h2 */
+h2 {
+    font-size: 1.8em;
+    color: #007bff;
+    text-align: justify;
+    margin: 25px;
+}
+
+
+/* Estilo para los párrafos */
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 20px;
+    text-align: center;
+}
+
+/* Estilo para los elementos de lista */
+li {
+    font-size: 1.1em;
+    padding-left: 20px;
+    position: relative;
+    padding: 1.5px;
+}
+
