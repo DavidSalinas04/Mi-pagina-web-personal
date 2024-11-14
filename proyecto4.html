@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tren automatizado</title>
+</head>
+<link rel="stylesheet" href="styles2.css">
+<body>
+    <h1 id="Portafolio"> <a href="index.html">Portafolio</a></h1>
+    <h1 id="Proyecto"> Desarollo de tren automatizado</h1>
+    
+    <p> 
+        Este proyecto de Internet de las Cosas (IoT) tiene como objetivo la automatización de un sistema utilizando diversos sensores
+         y actuadores, con la capacidad de recopilar, procesar y visualizar datos en tiempo real. Mediante el uso de un 
+         microcontrolador Arduino, se integraron varios sensores (como temperatura, movimiento, Rfid, y de luz.) y 
+         actuadores (como servomotores, ventiladores, y leds.) para monitorear y controlar distintos parámetros en el entorno físico.
+    </p>
+
+    <p>
+        El sistema está diseñado para operar de manera automática, tomando decisiones en función de los datos recolectados 
+        por los sensores. Por ejemplo, si el sensor de temperatura detecta que la temperatura es demasiado baja, 
+        el sistema activa un ventilador a través de un actuador. Además, en función de la información de 
+        otros sensores (como de luz o movimiento), el sistema puede realizar ajustes automáticamente.
+    </p>
+    
+    <p>
+        Para garantizar la eficiencia y el control remoto del sistema, los datos recolectados por los sensores se envían 
+        a una base de datos utilizando APIs desarrolladas específicamente para este fin. Esto permite que los 
+        datos sean accesibles desde cualquier lugar y en cualquier momento.
+    </p>
+
+    <p>    
+        La visualización de los datos se realiza a través de Power BI, donde se crean gráficos e informes interactivos que 
+        permiten analizar los datos históricos y en tiempo real. De esta forma, el usuario puede visualizar y tomar decisiones 
+        basadas en los datos recolectados, optimizando el rendimiento y mejorando la automatización del sistema. </p>
+    </p>
+
+    <h2> Componentes del proyecto</h2>
+    <div class="component-group">
+        <h3>Hardware:</h3>
+        <div class="horizontal-list">
+            <div class="sensor-actuator">
+                <h4>Sensores:</h4>
+                <ul>
+                    <li>Temperatura</li>
+                    <li>Movimiento</li>
+                    <li>Rfid</li>
+                    <li>Luz</li>
+                </ul>
+            </div>
+            <div class="sensor-actuator">
+                <h4>Actuadores:</h4>
+                <ul>
+                    <li>Servomotores</li>
+                    <li>Ventiladores</li>
+                    <li>leds rgb</li>
+                </ul>
+            </div>
+            <div class="sensor-actuator">
+                <h4>Microcontrolador:</h4>
+                <ul>
+                    <li>Arduino</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="component-group">
+        <h3>Software:</h3>
+        <ul>
+            <li>Código en Arduino para la recolección de datos y control de actuadores, 
+                APIs para la comunicación de datos con la base de datos en la nube.
+            </li>
+        </ul>
+    </div>
+    <div class="component-group">
+        <h3>Visualización:</h3>
+        <ul>
+            <li>Power BI para la creación de paneles interactivos y análisis de datos.</li>
+        </ul>
+    </div>
+
+</body>
+</html>

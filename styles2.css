@@ -60,3 +60,44 @@ li {
     padding: 1.5px;
 }
 
+.component-group {
+    margin: 20px 0;
+}
+
+.component-group h3 {
+    font-size: 1.5em;
+    color: #007bff;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.horizontal-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.sensor-actuator h4 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.sensor-actuator ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.sensor-actuator {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
